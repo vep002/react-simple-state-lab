@@ -1,0 +1,54 @@
+{
+  "stats": {
+    "suites": 2,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 2,
+    "start": "2021-05-20T23:52:08.341Z",
+    "end": "2021-05-20T23:52:08.377Z",
+    "duration": 36
+  },
+  "tests": [
+    {
+      "title": "defines Matrix.defaultProps",
+      "fullTitle": "<Matrix /> defines Matrix.defaultProps",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-Matrix.test.js:20:63)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "defines Matrix.defaultProps",
+      "fullTitle": "<Matrix /> defines Matrix.defaultProps",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected false to equal true",
+        "showDiff": true,
+        "actual": "false",
+        "expected": "true",
+        "stack": "AssertionError: expected false to equal true\n    at Context.<anonymous> (test/0-Matrix.test.js:20:63)\n    at processImmediate (node:internal/timers:464:21)"
+      }
+    },
+    {
+      "title": "\"before each\" hook for \"is a correctly defined and exported React component which renders a <div> with a className of 'cell'\"",
+      "fullTitle": "<Cell /> \"before each\" hook for \"is a correctly defined and exported React component which renders a <div> with a className of 'cell'\"",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'value' of undefined\n    at new Cell (src/Cell.js:9:30)\n    at ReactShallowRenderer.render (node_modules/react-test-renderer/cjs/react-test-renderer-shallow.development.js:131:26)\n    at /Users/victoriaperkins/Development/code/Mod2/react-simple-state-lab/node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:287:35\n    at withSetStateAllowed (node_modules/enzyme-adapter-utils/build/Utils.js:94:16)\n    at Object.render (node_modules/enzyme-adapter-react-16/build/ReactSixteenAdapter.js:286:68)\n    at new ShallowWrapper (node_modules/enzyme/build/ShallowWrapper.js:119:22)\n    at shallow (node_modules/enzyme/build/shallow.js:19:10)\n    at Context.<anonymous> (test/1-Cell.test.js:28:17)\n    at processImmediate (node:internal/timers:464:21)",
+        "message": "Cannot read property 'value' of undefined"
+      }
+    }
+  ],
+  "passes": []
+}
